@@ -1,8 +1,6 @@
-To reproduce:
+Empty line at the top of markdown file causes error. To reproduce:
 
-- `nvim -u ./minimal_init.lua` to setup lazy
-- quit nvim
-- open `nvim -u ./minimal_init.lua ./broken.md` and scroll to the bottom
+- `nvim --clean -u ./minimal.lua ./empty_space_broken.md` and scroll to the bottom
 
 Results in the following error:
 
@@ -18,4 +16,18 @@ stack traceback:
         .../lazy/nvim-treesitter-context/lua/treesitter-context.lua:27: in function <.../lazy/nvim-treesitter-context/lua/treesitter-context.lua:21
 ```
 
-A file without the yaml frontmatter present at the top of `broken.md` poses no issue, test `nvim -u ./minimal_init.lua ./fine.md` and scroll to the bottom, no error
+File which works without error:
+
+`nvim --clean -u ./minimal.lua ./works.md` and scroll to bottom
+
+![](./2024-04-17 17-30-04.mp4)
+
+Version:
+
+```
+NVIM v0.10.0-dev-2946+g562719033e
+Build type: RelWithDebInfo
+LuaJIT 2.1.1702233742
+Run "nvim -V1 -v" for more info
+```
+
