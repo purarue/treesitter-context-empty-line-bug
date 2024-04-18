@@ -1,4 +1,4 @@
-Empty line at the top of markdown file causes error. To reproduce:
+GEmpty line at the top of markdown file causes error. To reproduce:
 
 - `nvim --clean -u ./minimal.lua ./empty_space_broken.md` and scroll to the bottom
 
@@ -20,7 +20,8 @@ File which works without error:
 
 `nvim --clean -u ./minimal.lua ./works.md` and scroll to bottom
 
-[demo video](./2024-04-17 17-30-04.mp4)
+https://github.com/seanbreckenridge/treesitter-context-empty-line-bug/assets/7804791/655133b7-8f19-4b1b-b5ca-314de645a19d
+
 
 Version:
 
