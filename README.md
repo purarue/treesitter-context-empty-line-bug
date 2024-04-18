@@ -1,4 +1,6 @@
-GEmpty line at the top of markdown file causes error. To reproduce:
+Related issue: https://github.com/nvim-treesitter/nvim-treesitter-context/issues/431
+
+Empty line at the top of markdown file causes error. To reproduce:
 
 - `nvim --clean -u ./minimal.lua ./empty_space_broken.md` and scroll to the bottom
 
