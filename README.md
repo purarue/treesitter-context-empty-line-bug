@@ -20,7 +20,7 @@ File which works without error:
 
 `nvim --clean -u ./minimal.lua ./works.md` and scroll to bottom
 
-![](./2024-04-17 17-30-04.mp4)
+[demo video](./2024-04-17 17-30-04.mp4)
 
 Version:
 
