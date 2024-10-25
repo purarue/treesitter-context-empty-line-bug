@@ -22,7 +22,7 @@ File which works without error:
 
 `nvim --clean -u ./minimal.lua ./works.md` and scroll to bottom
 
-https://github.com/seanbreckenridge/treesitter-context-empty-line-bug/assets/7804791/655133b7-8f19-4b1b-b5ca-314de645a19d
+https://github.com/purarue/treesitter-context-empty-line-bug/assets/7804791/655133b7-8f19-4b1b-b5ca-314de645a19d
 
 
 Version:
